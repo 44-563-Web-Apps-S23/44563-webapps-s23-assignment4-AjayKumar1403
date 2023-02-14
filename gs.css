@@ -34,3 +34,17 @@
     width: 50%;
     align-items: center;
 }
+
+.smirnov:hover{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    color: rgb(246, 203, 14);
+    background-color: blue;
+}
+
+.popov:hover{
+    font-family: cursive;
+    font-size: 20px;
+    color: rgb(22, 191, 19);
+    background-color: rgb(181, 77, 8);
+}
