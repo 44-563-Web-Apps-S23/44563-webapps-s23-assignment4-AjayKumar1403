@@ -18,12 +18,14 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
     color: rgb(208, 13, 172);
+ 
 }
 
 .smirnov{
     font-family: cursive;
     font-size: 40px;
     color: rgb(35, 211, 19);
+   
 }
 
 .table-style{
@@ -40,6 +42,8 @@
     font-size: 40px;
     color: rgb(246, 203, 14);
     background-color: blue;
+    filter: blur(2px);
+    text-shadow: 2px 2px #ff0000;
 }
 
 .popov:hover{
@@ -47,4 +51,73 @@
     font-size: 20px;
     color: rgb(22, 191, 19);
     background-color: rgb(181, 77, 8);
+    filter: blur(1px);
+    border: #070707;
+    text-shadow: #2a0adb;
+}
+
+.material-icons { 
+    font-size: 80px !important;
+ }
+
+ .icon-display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    
+ }
+
+
+
+ /* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    justify-content: center;
+  }
+  
+  
+
+  .anchor{
+    float: left;
+    color: #270acb;
+    padding: 18px 77px;
+    text-decoration:rgb(71, 8, 217);
+    font-size: 25px;
+    background-color: #b7c404;
+    height: 28px;
+    width: 110px;
+    margin: 40px;
+
+    
+  }
+
+  .image-display{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    
+  }
+
+
+  ul.navbar-horizontal {
+    /* remove these */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    }
+    ul.navbar-horizontal li {
+    float:left; /* line up horizontally */
+    color:#000;
+    background-color:purple
+    }
+    ul.navbar-horizontal a {
+    display:block;
+    padding:8px
+    }
+    /* on hover change the link color*/
+    ul.navbar-horizontal a:hover {
+    background-color: #555;
+    color:white;
 }
